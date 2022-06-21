@@ -65,7 +65,10 @@ android {
 ## 👩🏻‍💻 Developed by
 
 [심이진](https://github.com/0pyaq0) – s2011@e-mirim.hs.kr <br/>
-[김유나](https://github.com/U-and-Me) – s2005@e-mirim.hs.kr
+* PM, 안드로이드 개발, UI/UX 디자인 <br/>
+
+[김유나](https://github.com/U-and-Me) – s2005@e-mirim.hs.kr <br/>
+* 안드로이드 개발 (API 담당)
 
 <br><br><br>
 
