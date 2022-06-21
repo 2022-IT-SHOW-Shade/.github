@@ -24,7 +24,7 @@
 
 <br>
 
-#### Server
+#### Database & Server
 - Firebase
 - Firebase Realtime Database
 - Neis API
