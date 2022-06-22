@@ -10,7 +10,7 @@
 
 <br/>
  
-![detail image 4](https://user-images.githubusercontent.com/72568433/173961987-33f8ee39-aa52-4d2f-a899-c1692818d430.png)
+<img width="1800" alt="목업" src="https://user-images.githubusercontent.com/72568433/174945438-0ec72400-0c1b-4967-9588-8fc91020c5a5.png">
 
 <br><br><br>
 
