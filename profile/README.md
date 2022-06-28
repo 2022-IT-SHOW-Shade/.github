@@ -31,7 +31,7 @@
 
 <br><br><br>
 
-## 🌐 개발 환경 설정
+## 🌐 Development settings
 
 ```
 android {
@@ -72,7 +72,7 @@ android {
 
 <br><br><br>
 
-## ⚡기여 방법
+## ⚡How to contribute
 
 1. (<https://github.com/2022-IT-SHOW-Shade/android.git>)을 포크합니다.
 2. (`git checkout -b feature/branch-name`) 명령어로 새 브랜치를 만드세요.
