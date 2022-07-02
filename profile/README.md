@@ -60,6 +60,219 @@ android {
 }
 ```
 
+```
+📦 
+├─ .gitignore
+├─ .idea
+│  ├─ .gitignore
+│  ├─ .name
+│  ├─ compiler.xml
+│  ├─ deploymentTargetDropDown.xml
+│  ├─ git_toolbox_prj.xml
+│  ├─ gradle.xml
+│  ├─ jarRepositories.xml
+│  ├─ misc.xml
+│  └─ vcs.xml
+├─ app
+│  ├─ .gitignore
+│  ├─ build.gradle
+│  ├─ google-services.json
+│  ├─ proguard-rules.pro
+│  └─ src
+│     ├─ androidTest
+│     │  └─ java
+│     │     └─ com
+│     │        └─ example
+│     │           └─ shade
+│     │              └─ ExampleInstrumentedTest.java
+│     ├─ main
+│     │  ├─ AndroidManifest.xml
+│     │  ├─ ic_launcher_mainicon-playstore.png
+│     │  ├─ java
+│     │  │  └─ com
+│     │  │     └─ example
+│     │  │        └─ shade
+│     │  │           ├─ adapter
+│     │  │           │  ├─ CommentAdpater.java
+│     │  │           │  ├─ MypostAdapter.java
+│     │  │           │  ├─ NoticeAdapter.java
+│     │  │           │  ├─ PostAdapter.java
+│     │  │           │  ├─ SchoolAdapter.java
+│     │  │           │  └─ TimeLineAdapter.java
+│     │  │           ├─ exception
+│     │  │           │  ├─ NeisException.java
+│     │  │           │  └─ ParseException.java
+│     │  │           ├─ fragment
+│     │  │           │  ├─ MyPageFragment.java
+│     │  │           │  ├─ MySchoolFragment.java
+│     │  │           │  ├─ MyWriteFragment.java
+│     │  │           │  └─ TimeLineFragment.java
+│     │  │           ├─ model
+│     │  │           │  ├─ Comment.java
+│     │  │           │  ├─ Notice.java
+│     │  │           │  ├─ Post.java
+│     │  │           │  ├─ School.java
+│     │  │           │  └─ User.java
+│     │  │           └─ view
+│     │  │              ├─ DeleteActivity.java
+│     │  │              ├─ MainActivity.java
+│     │  │              ├─ NoticeActivity.java
+│     │  │              ├─ PostDatailActivity.java
+│     │  │              ├─ RecyclerDecoration.java
+│     │  │              ├─ SplashActivity.java
+│     │  │              ├─ VersionActivity.java
+│     │  │              ├─ WritePostActivity.java
+│     │  │              ├─ server
+│     │  │              │  ├─ SchoolAPI.java
+│     │  │              │  └─ SearchSchoolActivity.java
+│     │  │              └─ userActivity
+│     │  │                 ├─ JoinActivity.java
+│     │  │                 └─ LoginActivity.java
+│     │  └─ res
+│     │     ├─ anim
+│     │     │  └─ spin.xml
+│     │     ├─ drawable
+│     │     │  ├─ back.xml
+│     │     │  ├─ background_btn_phone_confirm.xml
+│     │     │  ├─ background_btn_reg.xml
+│     │     │  ├─ background_btn_write_finish.xml
+│     │     │  ├─ background_btn_writepost.xml
+│     │     │  ├─ background_btnmic.xml
+│     │     │  ├─ background_button.xml
+│     │     │  ├─ background_cardview_round.xml
+│     │     │  ├─ background_mypage_like.xml
+│     │     │  ├─ background_searchview.xml
+│     │     │  ├─ background_splash.xml
+│     │     │  ├─ btn_delete.xml
+│     │     │  ├─ btn_main.xml
+│     │     │  ├─ btn_second.xml
+│     │     │  ├─ chat.xml
+│     │     │  ├─ cloud.png
+│     │     │  ├─ delete.xml
+│     │     │  ├─ delete_back.png
+│     │     │  ├─ edit.xml
+│     │     │  ├─ ic_launcher_background.xml
+│     │     │  ├─ ic_launcher_foreground.xml
+│     │     │  ├─ icon_main.png
+│     │     │  ├─ icon_splash.png
+│     │     │  ├─ like.xml
+│     │     │  ├─ like_check.png
+│     │     │  ├─ like_checkbox.xml
+│     │     │  ├─ like_uncheck.png
+│     │     │  ├─ menu_selector_color.xml
+│     │     │  ├─ mic.xml
+│     │     │  ├─ mypage.xml
+│     │     │  ├─ mypage_button1.png
+│     │     │  ├─ mypage_button2.png
+│     │     │  ├─ mypage_button3.png
+│     │     │  ├─ mypage_button4.png
+│     │     │  ├─ mypage_button5.png
+│     │     │  ├─ school.xml
+│     │     │  ├─ send.xml
+│     │     │  ├─ splash.xml
+│     │     │  ├─ timeline.xml
+│     │     │  ├─ user.xml
+│     │     │  └─ write.xml
+│     │     ├─ font
+│     │     │  ├─ font.xml
+│     │     │  ├─ notosanskrblack.ttf
+│     │     │  ├─ notosanskrbold.ttf
+│     │     │  ├─ notosanskrdemilite.ttf
+│     │     │  ├─ notosanskrlight.ttf
+│     │     │  ├─ notosanskrmedium.ttf
+│     │     │  ├─ notosanskrregular.ttf
+│     │     │  └─ notosanskrthin.ttf
+│     │     ├─ layout
+│     │     │  ├─ activity_delete.xml
+│     │     │  ├─ activity_join.xml
+│     │     │  ├─ activity_login.xml
+│     │     │  ├─ activity_main.xml
+│     │     │  ├─ activity_mypage_like.xml
+│     │     │  ├─ activity_notice.xml
+│     │     │  ├─ activity_posts_detail.xml
+│     │     │  ├─ activity_search_school.xml
+│     │     │  ├─ activity_version.xml
+│     │     │  ├─ activity_write_detail.xml
+│     │     │  ├─ dialog_bamboo.xml
+│     │     │  ├─ dialog_delete.xml
+│     │     │  ├─ dialog_withdrawal.xml
+│     │     │  ├─ fragment_my_school.xml
+│     │     │  ├─ fragment_my_write.xml
+│     │     │  ├─ fragment_mypage.xml
+│     │     │  ├─ fragment_timeline.xml
+│     │     │  ├─ item_comments.xml
+│     │     │  ├─ item_my_posts.xml
+│     │     │  ├─ item_notice.xml
+│     │     │  ├─ item_posts.xml
+│     │     │  ├─ item_school.xml
+│     │     │  ├─ splash.xml
+│     │     │  ├─ toolbar_base.xml
+│     │     │  ├─ toolbar_mypage.xml
+│     │     │  ├─ toolbar_mywrite.xml
+│     │     │  ├─ toolbar_school.xml
+│     │     │  └─ toolbar_write.xml
+│     │     ├─ menu
+│     │     │  └─ menu_bottom_nav.xml
+│     │     ├─ mipmap-anydpi-v26
+│     │     │  ├─ ic_launcher.xml
+│     │     │  ├─ ic_launcher_mainicon.xml
+│     │     │  ├─ ic_launcher_mainicon_round.xml
+│     │     │  └─ ic_launcher_round.xml
+│     │     ├─ mipmap-hdpi
+│     │     │  ├─ ic_launcher.webp
+│     │     │  ├─ ic_launcher_mainicon.png
+│     │     │  ├─ ic_launcher_mainicon_foreground.png
+│     │     │  ├─ ic_launcher_mainicon_round.png
+│     │     │  └─ ic_launcher_round.webp
+│     │     ├─ mipmap-mdpi
+│     │     │  ├─ ic_launcher.webp
+│     │     │  ├─ ic_launcher_mainicon.png
+│     │     │  ├─ ic_launcher_mainicon_foreground.png
+│     │     │  ├─ ic_launcher_mainicon_round.png
+│     │     │  └─ ic_launcher_round.webp
+│     │     ├─ mipmap-xhdpi
+│     │     │  ├─ ic_launcher.webp
+│     │     │  ├─ ic_launcher_mainicon.png
+│     │     │  ├─ ic_launcher_mainicon_foreground.png
+│     │     │  ├─ ic_launcher_mainicon_round.png
+│     │     │  └─ ic_launcher_round.webp
+│     │     ├─ mipmap-xxhdpi
+│     │     │  ├─ ic_launcher.webp
+│     │     │  ├─ ic_launcher_mainicon.png
+│     │     │  ├─ ic_launcher_mainicon_foreground.png
+│     │     │  ├─ ic_launcher_mainicon_round.png
+│     │     │  └─ ic_launcher_round.webp
+│     │     ├─ mipmap-xxxhdpi
+│     │     │  ├─ ic_launcher.webp
+│     │     │  ├─ ic_launcher_mainicon.png
+│     │     │  ├─ ic_launcher_mainicon_foreground.png
+│     │     │  ├─ ic_launcher_mainicon_round.png
+│     │     │  └─ ic_launcher_round.webp
+│     │     ├─ values-night
+│     │     │  └─ themes.xml
+│     │     └─ values
+│     │        ├─ colors.xml
+│     │        ├─ ic_launcher_mainicon_background.xml
+│     │        ├─ strings.xml
+│     │        └─ themes.xml
+│     └─ test
+│        └─ java
+│           └─ com
+│              └─ example
+│                 └─ shade
+│                    └─ ExampleUnitTest.java
+├─ build.gradle
+├─ gradle.properties
+├─ gradle
+│  └─ wrapper
+│     ├─ gradle-wrapper.jar
+│     └─ gradle-wrapper.properties
+├─ gradlew
+├─ gradlew.bat
+└─ settings.gradle
+```
+©generated by [Project Tree Generator](https://woochanleee.github.io/project-tree-generator)
+
 <br><br><br>
 
 ## 👩🏻‍💻 Developed by
