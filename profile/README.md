@@ -64,6 +64,9 @@ android {
 
 ```
 📦 
+├─ .github
+│  └─ workflows
+│     └─ build.yml
 ├─ .gitignore
 ├─ .idea
 │  ├─ .gitignore
@@ -75,6 +78,7 @@ android {
 │  ├─ jarRepositories.xml
 │  ├─ misc.xml
 │  └─ vcs.xml
+├─ README.md
 ├─ app
 │  ├─ .gitignore
 │  ├─ build.gradle
