@@ -6,8 +6,9 @@
 
 <br/>
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/2022-IT-SHOW-Shade&count_bg=%23849ED1&title_bg=%23849ED1&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com) <br/>
-[webpage](https://shade.emirim.kr/)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=2022-IT-SHOW-Shade_android&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=2022-IT-SHOW-Shade_android) [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=2022-IT-SHOW-Shade_android&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=2022-IT-SHOW-Shade_android) [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/2022-IT-SHOW-Shade&count_bg=%23849ED1&title_bg=%23849ED1&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com) <br/>
+[webpage here!](https://shade.emirim.kr/)
+
 
 <br/>
  
@@ -293,4 +294,8 @@ android {
 3. (`git commit -am 'Add some branch-name'`) 명령어로 커밋하세요.
 4. (`git push origin feature/branch-name`) 명령어로 브랜치에 푸시하세요. 
 5. PR을 보내주세요!
+
+<br/><br/>
+
+[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)](https://sonarcloud.io/summary/new_code?id=2022-IT-SHOW-Shade_android)
 
