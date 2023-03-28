@@ -6,6 +6,8 @@
 
 <br/>
 
+현재 Kotlin+Spring으로 천천히 서버 리뉴얼 예정입니다.
+
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=2022-IT-SHOW-Shade_android&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=2022-IT-SHOW-Shade_android) [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=2022-IT-SHOW-Shade_android&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=2022-IT-SHOW-Shade_android) [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/2022-IT-SHOW-Shade&count_bg=%23849ED1&title_bg=%23849ED1&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com) <br/>
 [webpage here!](https://shade.emirim.kr/)
 
